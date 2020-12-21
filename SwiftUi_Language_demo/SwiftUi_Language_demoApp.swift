@@ -9,10 +9,17 @@ import SwiftUI
 
 @main
 struct SwiftUi_Language_demoApp: App {
-
+        
+    var userSetting: UserSetting
+    
+    init(){
+        userSetting = UserSetting()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(userSetting)
         }
     }
 }

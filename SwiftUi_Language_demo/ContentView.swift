@@ -9,19 +9,22 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
-    @State var identifier = "en"
+    
+    @EnvironmentObject private var userSetting: UserSetting
 
     var body: some View {
-        VStack {
-            Button("Chinese", action: {
-                self.identifier = "zh-Hans"
-            })
-            Button("English", action: {
-                self.identifier = "en"
-            })
-            Text("Test")
-        }
-        .environment(\.locale, .init(identifier: identifier))
+        NavigationView{
+            VStack{
+                NavigationLink(
+                    destination: SettingView(),
+                    label: {
+                        Text("Setting")
+                })
+                
+                Text("Test")
+            }
+            
+        }.environment(\.locale, .init(identifier: userSetting.language))
     }
 }
 

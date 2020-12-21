@@ -15,6 +15,8 @@
 		E180EDD325906DAE007006EE /* SwiftUi_Language_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E180EDD225906DAE007006EE /* SwiftUi_Language_demoTests.swift */; };
 		E180EDDE25906DAE007006EE /* SwiftUi_Language_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E180EDDD25906DAE007006EE /* SwiftUi_Language_demoUITests.swift */; };
 		E180EDFA25907221007006EE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E180EDFC25907221007006EE /* Localizable.strings */; };
+		E180EE0B25908E4C007006EE /* UserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E180EE0A25908E4C007006EE /* UserSetting.swift */; };
+		E180EE10259091C3007006EE /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E180EE0F259091C3007006EE /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		E180EDDF25906DAE007006EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E180EDFB25907221007006EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E180EE0325907226007006EE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E180EE0A25908E4C007006EE /* UserSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSetting.swift; sourceTree = "<group>"; };
+		E180EE0F259091C3007006EE /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				E180EDC625906DAE007006EE /* SwiftUi_Language_demo.xcdatamodeld */,
 				E180EDC125906DAE007006EE /* Preview Content */,
 				E180EDFC25907221007006EE /* Localizable.strings */,
+				E180EE0A25908E4C007006EE /* UserSetting.swift */,
+				E180EE0F259091C3007006EE /* SettingView.swift */,
 			);
 			path = SwiftUi_Language_demo;
 			sourceTree = "<group>";
@@ -269,6 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E180EDC825906DAE007006EE /* SwiftUi_Language_demo.xcdatamodeld in Sources */,
+				E180EE10259091C3007006EE /* SettingView.swift in Sources */,
+				E180EE0B25908E4C007006EE /* UserSetting.swift in Sources */,
 				E180EDBE25906DAB007006EE /* ContentView.swift in Sources */,
 				E180EDBC25906DAB007006EE /* SwiftUi_Language_demoApp.swift in Sources */,
 			);
